@@ -5,6 +5,7 @@ parts:
   numbered: false
   maxdepth: 1
   chapters:
+  - file: posts/research/a
   - file: posts/research/project1
   - file: posts/research/project2
   - file: posts/research/publication
