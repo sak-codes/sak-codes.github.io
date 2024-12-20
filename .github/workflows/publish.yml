@@ -38,7 +38,7 @@ jobs:
       # Build the book
       - name: Build the book
         run: |
-          jb build docs --path-output ./ -nW --keep-going
+          jb build docs --path-output ./ --keep-going
 
       # Upload the book's HTML as an artifact
       - name: Upload artifact
