@@ -1,151 +1,137 @@
-# Google Summer of Code 2023
+# My Google Summer of Code Journey – Extending Data Structures, Algorithms, and the C++ Backend 🚀
 
-## Extending the data structures and algorithms along with providing C++ backend
+## Introduction: A Summer of Growth, Code, and Algorithms
 
-**Project Mentors**: Gagandeep Singh, Ivan Ogasawara, Smit Lunagariya, Ever Vino, Alexandre de Siqueira, Agustina Pesce, Saransh Chopra
+Hello, world! 👋  
+I’m Sakshi Oza, a Master's student passionate about data-science, open-source software, and algorithms. This summer, I had the incredible privilege to work with Google Summer of Code (GSoC) 2023 on a project titled: "Extending the data structures, algorithms, and providing C++ backend".
 
-This is the final report of the entire GSoC 2023  for the project titled as **Extending the data structures and algorithms along with providing C++ backend**. The complete description of the project implementation and discussions of the entire program is available at my [personal blog site](https://sak-codes.github.io).
-
-### About Me
-
-I am **Sakshi Oza**, final year Masters student at Indian Institute of Technology, Gandhinagar.
-
-### Project Overview: Phase-wise short description
-
-I divided the whole project into three main phases to work on the specific topics that were supposed to be implemented during the GSoC.
-
-1. **Community Bonding & Pre-GSOC**: During this phase, I mainly focused
-on the easier topics that help me to get started with the official coding
-timeline. I dedicated my efforts to gaining a thorough understanding of the codebase.
-
-2. **Phase 1**: This phase consists of the official coding before prior to
-the mid evaluation. This phase was mainly focused on extending the existing
-scope of data structures and algorithms as well as fixing the existing
-issues.
-
-2. **Phase 2**: This phase consists of the official coding after the
-the mid evaluation. This phase included working on some new data structures
-along with adding the CPP backend to the current algorithms under the
-`linear_data_structures` submodule.
+If you’ve ever wondered how Python libraries can achieve C++-level performance while implementing advanced algorithms, this blog is for you. I’ll share my GSoC journey, including challenges, solutions, and learnings.
 
 
-### Pull Requests
-This section describes the actual work done during the coding period in terms of merged pull requests.
+## About the Project 📚
+
+The project focused on enhancing a Python-based data structures library, `pydatastructs` by:  
+1. Extending existing data structures and algorithms.  
+2. Implementing optimized algorithms for better functionality.  
+3. Introducing a C++ backend to improve performance-critical operations.
+
+This combination bridges the gap between Python’s developer-friendliness and C++’s computational efficiency.
 
 
-**Community Bonding & Pre-GSOC**
+## Breaking It Down: My GSoC Timeline ⏳
 
-- [#516](https://github.com/codezonediitj/pydatastructs/pull/516) - This PR
-implements a method in `DSU` to find the size of the group of the given key.
+### 🔹 Community Bonding Period
+Before coding began, I focused on:  
+- Understanding the existing codebase and architecture.  
+- Discussing goals and roadmaps with my mentors:  
+  - Gagandeep Singh  
+  - Smit Lunagariya  
+  - Ivan Ogasawara
 
-- [#517](https://github.com/codezonediitj/pydatastructs/pull/517) - This PR
-adds a method in the class `Trie` to check if the string as inserted before.
+I explored the gaps in the current implementation and set milestones for my contributions.
 
-- [#521](https://github.com/codezonediitj/pydatastructs/pull/521) - This PR
-implements a method to print all the members of the same group in `DSU`.
 
-**Phase 1**
+### 🔹 Phase 1: Extending Existing Algorithms and Structures
 
-- [#530](https://github.com/codezonediitj/pydatastructs/pull/530) - This PR
-closes the [issue-478](https://github.com/codezonediitj/pydatastructs/issues/478) by implementing the network flow algorithms: Edmond Karp.
+1. Network Flow Algorithms  
+   - Implemented Edmond-Karp and Dinic’s algorithms to solve maximum flow problems.  
+   - These algorithms are critical for network routing, resource allocation, and optimization problems.
 
-- [#534](https://github.com/codezonediitj/pydatastructs/pull/534) - This PR was built on the top of the above PR to add the Dinic algorithm for network flow.
+2. Binary Search Tree (BST) Enhancements  
+   - Added lower_bound and upper_bound methods for range-based queries.  
+   - These methods mimic the functionality of C++ STL, offering faster lookups.  
 
-- [#535](https://github.com/codezonediitj/pydatastructs/pull/535) - This PR
-closes the [issue-436](https://github.com/codezonediitj/pydatastructs/issues/436) by implementing a `test` function that helps in testing
-the library installation as well as supports submodule specific tests.
+   Example Code:
+   ```python
+   from pydatastructs import BinarySearchTree
 
-- [#537](https://github.com/codezonediitj/pydatastructs/pull/537) - This PR
-implements lower bound and upper bound in the BST data structure similar to
-CPP's STL.
+   bst = BinarySearchTree()
+   bst.insert(10)
+   bst.insert(20)
+   bst.insert(30)
+   print(bst.lower_bound(15))  # Output: 20
+   ```
 
-**Phase 2**
+### 🔹 Phase 2: Bringing the C++ Backend to Life
 
-- [#538](https://github.com/codezonediitj/pydatastructs/pull/538) - This PR closes an [issue-390](https://github.com/codezonediitj/pydatastructs/issues/390) on adding a `Multiset` data structure similar to CPP's STL.
+In Phase 2, I focused on backend optimization by implementing a C++ backend for performance-critical algorithms. Why? Python is fantastic for development, but when it comes to heavy computation, C++ shines. By combining the two, we achieve the best of both worlds.
 
-- [#539](https://github.com/codezonediitj/pydatastructs/pull/539) - This PR
-adds Lazy Segment Tree implementation.
 
-- [#540](https://github.com/codezonediitj/pydatastructs/pull/540) - This PR
-focuses on the CPP backend of the project targeting the sorting algorithm by starting with `bubble_sort`.
+### Key Contributions in this Phase 🛠️
 
-- [#542](https://github.com/codezonediitj/pydatastructs/pull/542) - This PR
-completed CPP backend of `selection_sort`.
+#### 1. Sorting Algorithms  
+- Added bubble_sort, selection_sort, and insertion_sort with C++ backend support.  
+- This dramatically improved the speed of sorting operations.
 
-- [#543](https://github.com/codezonediitj/pydatastructs/pull/543) - This PR
-completed CPP backend of `insertion_sort` and `is_ordered`.
+    Example Code:
+    ```python
+    from pydatastructs import OneDimensionalArray, Backend, bubble_sort
 
-- [#544](https://github.com/codezonediitj/pydatastructs/pull/544) - This PR
-extends CPP backend for search algorithms: `linear_search`, `binary_search`, and `jump_search`.
+    arr = OneDimensionalArray(int, [5, 3, 8, 1])
+    bubble_sort(arr, backend=Backend.CPP)
+    print(arr)  # Output: [1, 3, 5, 8]
+    ```
 
-### Examples
+### 2. Search Algorithms 
+Implemented efficient linear_search, binary_search, and jump_search algorithms using C++.  
+These methods are fundamental and heavily used across various applications.
 
-1. Using the `test` function
 
-```python
->>> from pydatastructs import test
->>> test(["graphs"])
-============================= test session starts ==============================
-platform darwin -- Python 3.8.16, pytest-7.3.1, pluggy-1.0.0
-rootdir: /Users/thebigbool/repos/pydatastructs
-plugins: cov-4.1.0, xdist-3.3.1, anyio-3.7.0
-collected 11 items
+### 3. Lazy Segment Tree
+Introduced a lazy segment tree to handle range-based queries and updates efficiently.  
+Segment trees are invaluable for applications like interval management and range sum/count queries.
 
-pydatastructs/graphs/tests/test_adjacency_list.py .                      [  9%]
-pydatastructs/graphs/tests/test_adjacency_matrix.py .                    [ 18%]
-pydatastructs/graphs/tests/test_algorithms.py .........                  [100%]
 
-============================== 11 passed in 0.05s ==============================
-```
+## Challenges and Learnings 🤓
 
-We can also test an imported submodule in the similar way:
+### 1. Network Flow Complexity  
+Implementing Edmond-Karp and Dinic’s algorithms required a deep understanding of graph theory, BFS, and DFS.  
+I spent significant time dissecting these algorithms before achieving clean implementations.
 
-```python
->>> from pydatastructs import graphs
->>> test([graphs])
-============================= test session starts ==============================
-platform darwin -- Python 3.8.16, pytest-7.3.1, pluggy-1.0.0
-rootdir: /Users/thebigbool/repos/pydatastructs
-plugins: cov-4.1.0, xdist-3.3.1, anyio-3.7.0
-collected 11 items
+### 2. Python-C++ Integration 
+Integrating C++ code into a Python library was a new challenge.  
+I explored Cython and other backend options to ensure seamless interoperability without compromising performance.
 
-pydatastructs/graphs/tests/test_adjacency_list.py .                      [  9%]
-pydatastructs/graphs/tests/test_adjacency_matrix.py .                    [ 18%]
-pydatastructs/graphs/tests/test_algorithms.py .........                  [100%]
+### 3. Writing Clean, Optimized Code
+- Ensured my code followed best practices: modularity, readability, and speed.  
+- Wrote comprehensive test cases for every addition to ensure robustness.
 
-============================== 11 passed in 0.02s ==============================
-```
 
-2. Using a `Multiset`
+## Memes from the Journey 🎭
 
-```python
->>> from pydatastructs.miscellaneous_data_structures import Multiset
->>> ms = Multiset()
->>> ms.add(5)
->>> ms.add(5)
->>> ms.add(3)
->>> ms.add(7)
->>> len(ms)
-4
->>> 5 in ms
-True
->>> 2 in ms
-False
-```
+1. When Network Flow Started Making Sense  
+*“When theory meets implementation, and it finally clicks.”*
 
-3. Using a CPP backend
+2. Debugging My C++ Backend  
+*“C++ segmentation fault: Where is the bug? Not here, not there... oh wait, everywhere!”*
 
-```python
->>> from pydatastructs import OneDimensionalArray, Backend, linear_search
->>> array = OneDimensionalArray(int, [1, 2, 5, 7, 10, 29, 40])
->>> linear_search(array, 5, backend=Backend.CPP)
-2
->>> linear_search(array, -5, backend=Backend.CPP) # not found
->>>
-```
+3. Submitting My Final PR  
+*“Months of hard work, countless commits, and it all comes down to one button: Merge PR.”*
 
-### Conclusion
 
-This summer has been a great learning experience. I am grateful to my
-mentors, [Gagandeep Singh](https://github.com/czgdp1807), and [Smit Lunagariya](https://github.com/Smit-create) for always helping me with
-the new concepts, reviewing my PRs and providing quick responses.
+## Impact: Why This Matters 🌍
+
+The contributions I made during GSoC 2023 will:  
+1. Enhance library performance through optimized algorithms.  
+2. Expand library utility with new data structures and methods.  
+3. Improve scalability with a C++ backend for heavy computations.
+
+
+## Gratitude 🙏
+
+I’m incredibly grateful to my mentors:  
+- Gagandeep Singh  
+- Smit Lunagariya  
+- Ivan Ogasawara  
+
+Their guidance, patience, and feedback were invaluable throughout this project. I also want to thank the GSoC community for fostering such a collaborative and supportive environment.
+
+
+## Conclusion: A Summer to Remember 🌟
+
+GSoC 2023 was a transformative experience. From grappling with network flows to integrating C++ backends, I grew as a developer and problem solver. This project has not only strengthened my technical skills but also deepened my appreciation for open-source contributions.
+
+I’m excited to continue my open-source journey, contribute more, and keep growing as a developer.
+
+Thank you for reading! 💻✨  
+“Keep coding, keep learning, and let’s build something amazing together!” 

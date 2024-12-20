@@ -5,30 +5,18 @@ parts:
   numbered: false
   maxdepth: 1
   chapters:
-  - file: posts/research/a
   - file: posts/research/project1
   - file: posts/research/project2
   - file: posts/research/publication
+  - file: posts/research/conference
+- caption: Blogs
+  numbered: false
+  maxdepth: 1
+  chapters:
+  - file: posts/blogs/blog1
+  - file: posts/blogs/blog2
 - caption: Open Source
   numbered: false
   maxdepth: 1
   chapters:
   - file: posts/open_source/gsoc
-
-  # - file: tutorials/references
-
-# - caption: Topic Guides
-#   chapters:
-#   - file: basics/organize
-#     sections:
-#     - file: structure/toc
-#     - file: structure/configure
-#     - file: file-types/index
-#       sections:
-#       - file: file-types/markdown
-#       - file: file-types/notebooks
-#       - file: file-types/myst-notebooks
-#       - file: file-types/jupytext
-#       - file: file-types/restructuredtext
-#     - file: basics/create
-#     - file: structure/sections-headers
