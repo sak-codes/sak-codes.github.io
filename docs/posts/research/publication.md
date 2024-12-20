@@ -95,11 +95,11 @@ Where $\Delta P_x$ and $\Delta P_y$ are pixel intensity gradients.
 ## Results: Numbers Don’t Lie 🧮  
 
 ### 1. Nakagami Parameters  
-![NakagamiROI](../../images/Publication/bscan.png)
+![NakagamiROI](../../images/publication/bscan.png)
 
 Here in the images tumor is our Region of Interest which is selected in blue dotted lines.
 
-![Nakagami](../../images/Publication/nakagami.png)
+![Nakagami](../../images/publication/nakagami.png)
 
 | Parameter   | CH          | CM          | p-value     |  
 |--|--|--|-|  
@@ -112,12 +112,12 @@ Here in the images tumor is our Region of Interest which is selected in blue dot
 
 ### 2. CEUS Contrast Analysis  
 
-![TA](../../images/Publication/timeframe.png)
+![TA](../../images/publication/timeframe.png)
 
 Figure shows reference B-scan frame before injection of the contrast agent for a CH case wherein the selected tumor region delineated in blue. A time series
 of B-scan images of a CH case that were acquired 10–60 s post-injection of the contrast agent.
 
-![TA](../../images/Publication/contrastboth.png)
+![TA](../../images/publication/contrastboth.png)
 
 | **Tumor Type**    | **Time-Averaged Contrast** | **p-value**     |
 |--------------------|----------------------------|------------------|
