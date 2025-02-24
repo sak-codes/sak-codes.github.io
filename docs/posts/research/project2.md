@@ -1,6 +1,6 @@
-# 🧪 Analyzing the Impact of Occupational Radiation Exposure on Cancer Mortality  
+# Analyzing the Impact of Occupational Radiation Exposure on Cancer Mortality  
 
-## 1. Introduction: The Shadow of Radiation ☢️  
+## 1. Introduction: The Shadow of Radiation  
 
 Occupational radiation exposure is a significant public health concern, particularly for workers in industries like nuclear power, metal processing, and energy production. Long-term exposure to radiation has been linked to increased cancer risks, making this an important area of occupational health research.  
 
@@ -13,9 +13,9 @@ This retrospective study investigates the impact of occupational radiation expos
 
 
 
-## 3. Methods and Materials 🛠️  
+## 3. Methods and Materials
 
-### A. Data Sources 📊  
+### A. Data Sources
 
 Two datasets were analyzed:  
 
@@ -33,7 +33,7 @@ Note: The study focuses on white male workers due to demographic consistency, re
 
 
 
-### B. Workflow of the Study 🔄  
+### B. Workflow of the Study 
 
 The data analysis process followed a systematic workflow as shown below:  
 
@@ -41,7 +41,7 @@ The data analysis process followed a systematic workflow as shown below:
 
 
 
-### C. Data Preprocessing 🧹  
+### C. Data Preprocessing 
 
 1. Cancer Classification:  
    Workers were categorized into two groups based on ICD-8 codes:  
@@ -57,7 +57,7 @@ Table 1: Example Rows from Merged Dataset
 
 
 
-### D. Statistical Analysis 🧮  
+### D. Statistical Analysis 
 
 1. Descriptive Statistics:  
    Calculated measures like mean, standard deviation, skewness, and kurtosis for photon dose levels.  
@@ -71,7 +71,7 @@ Table 1: Example Rows from Merged Dataset
 
 
 
-## 4. Results 📈  
+## 4. Results
 
 ### A. Descriptive Analysis  
 
@@ -113,7 +113,7 @@ Result: The test showed a statistically significant difference in photon dose le
 
 
 
-## 5. Discussion: Key Insights 🧐  
+## 5. Discussion: Key Insights 
 
 1. Workers who died from cancer-related causes had significantly higher radiation doses than those who died from other causes.  
 2. The skewed distribution of photon doses highlights the importance of non-parametric tests in exposure data analysis.  
@@ -121,18 +121,18 @@ Result: The test showed a statistically significant difference in photon dose le
 
 
 
-## 6. Conclusion: What This Means for Public Health 🌍  
+## 6. Conclusion: What This Means for Public Health 
 
 Our analysis suggests a strong association between occupational radiation exposure and cancer mortality among FMPC workers. These results underscore the importance of:  
 1. Dose Monitoring: Implementing strict monitoring protocols for radiation levels.  
 2. Safety Regulations: Ensuring safety standards to minimize exposure in occupational settings.  
 3. Future Research: Conducting studies with larger, more diverse datasets to validate these findings. 
 
-## 7. References 📚  
+## 7. References
 
 1. Cragle, D. L., Watkins, J. P., Ingle, J. N., et al. *Mortality Among White Male Workers at a Uranium Processing Plant.* (1996).  
 2. CEDR (1994). *Fernald Retrospective Cancer Mortality Study.*  
 
 
-Thank you for reading! 🚀  
+Thank you for reading!
 *“Science is not only about understanding the world; it’s about protecting it.”*  

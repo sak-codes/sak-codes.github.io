@@ -76,4 +76,4 @@ Satellite imagery, IoT sensors, and big data analytics are helping predict natur
 The power of data science lies in its ability to solve problems, create opportunities, and transform the world. Whether you’re a student, a professional, or an enthusiast, now is the time to embrace data science and contribute to this evolving field.  
 
 
-Thank you for reading! 🚀✨  
+Thank you for reading! 

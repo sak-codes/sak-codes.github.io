@@ -1,4 +1,4 @@
-# My Google Summer of Code Journey – Extending Data Structures, Algorithms, and the C++ Backend 🚀
+# My Google Summer of Code Journey – Extending Data Structures, Algorithms, and the C++ Backend
 
 ## Introduction: A Summer of Growth, Code, and Algorithms
 
@@ -8,7 +8,7 @@ I’m Sakshi Oza, a Master's student passionate about data-science, open-source 
 If you’ve ever wondered how Python libraries can achieve C++-level performance while implementing advanced algorithms, this blog is for you. I’ll share my GSoC journey, including challenges, solutions, and learnings.
 
 
-## About the Project 📚
+## About the Project
 
 The project focused on enhancing a Python-based data structures library, `pydatastructs` by:  
 1. Extending existing data structures and algorithms.  
@@ -18,7 +18,7 @@ The project focused on enhancing a Python-based data structures library, `pydata
 This combination bridges the gap between Python’s developer-friendliness and C++’s computational efficiency.
 
 
-## Breaking It Down: My GSoC Timeline ⏳
+## Breaking It Down: My GSoC Timeline
 
 ### 🔹 Community Bonding Period
 Before coding began, I focused on:  
@@ -57,7 +57,7 @@ I explored the gaps in the current implementation and set milestones for my cont
 In Phase 2, I focused on backend optimization by implementing a C++ backend for performance-critical algorithms. Why? Python is fantastic for development, but when it comes to heavy computation, C++ shines. By combining the two, we achieve the best of both worlds.
 
 
-### Key Contributions in this Phase 🛠️
+### Key Contributions in this Phase
 
 #### 1. Sorting Algorithms  
 - Added bubble_sort, selection_sort, and insertion_sort with C++ backend support.  
@@ -82,7 +82,7 @@ Introduced a lazy segment tree to handle range-based queries and updates efficie
 Segment trees are invaluable for applications like interval management and range sum/count queries.
 
 
-## Challenges and Learnings 🤓
+## Challenges and Learnings
 
 ### 1. Network Flow Complexity  
 Implementing Edmond-Karp and Dinic’s algorithms required a deep understanding of graph theory, BFS, and DFS.  
@@ -97,7 +97,7 @@ I explored Cython and other backend options to ensure seamless interoperability 
 - Wrote comprehensive test cases for every addition to ensure robustness.
 
 
-## Memes from the Journey 🎭
+## Memes from the Journey
 
 1. When Network Flow Started Making Sense  
 *“When theory meets implementation, and it finally clicks.”*
@@ -109,7 +109,7 @@ I explored Cython and other backend options to ensure seamless interoperability 
 *“Months of hard work, countless commits, and it all comes down to one button: Merge PR.”*
 
 
-## Impact: Why This Matters 🌍
+## Impact: Why This Matters
 
 The contributions I made during GSoC 2023 will:  
 1. Enhance library performance through optimized algorithms.  
@@ -117,7 +117,7 @@ The contributions I made during GSoC 2023 will:
 3. Improve scalability with a C++ backend for heavy computations.
 
 
-## Gratitude 🙏
+## Gratitude
 
 I’m incredibly grateful to my mentors:  
 - Gagandeep Singh  
@@ -127,11 +127,11 @@ I’m incredibly grateful to my mentors:
 Their guidance, patience, and feedback were invaluable throughout this project. I also want to thank the GSoC community for fostering such a collaborative and supportive environment.
 
 
-## Conclusion: A Summer to Remember 🌟
+## Conclusion: A Summer to Remember
 
 GSoC 2023 was a transformative experience. From grappling with network flows to integrating C++ backends, I grew as a developer and problem solver. This project has not only strengthened my technical skills but also deepened my appreciation for open-source contributions.
 
 I’m excited to continue my open-source journey, contribute more, and keep growing as a developer.
 
-Thank you for reading! 💻✨  
+Thank you for reading!  
 “Keep coding, keep learning, and let’s build something amazing together!” 

@@ -1,7 +1,7 @@
-# 🩺 Ultrasound Biomarkers: Differentiating Benign and Malignant Choroidal Tumors 🌟  
+# 🩺 Ultrasound Biomarkers: Differentiating Benign and Malignant Choroidal Tumors 
 
 Co-author of the research paper titled:  
-📝 *“Ultrasound Biomarkers: Contrast-enhanced Ultrasound and Nakagami Imaging to Differentiate Benign and Malignant Choroidal Tumors”*  
+*“Ultrasound Biomarkers: Contrast-enhanced Ultrasound and Nakagami Imaging to Differentiate Benign and Malignant Choroidal Tumors”*  
 🔗 [Read the full paper here](https://www.tandfonline.com/eprint/DFGWU5WM8FZZQUWEPVAQ/full?target=10.1080/02713683.2024.2366307#d1e752)  
 
 
@@ -19,7 +19,7 @@ These techniques provide quantitative insights into the vascularity and tissue p
 
 
 
-## Why This Matters 🧐  
+## Why This Matters
 
 Existing diagnostic techniques like A/B-scan ultrasonography, OCT, and angiography are effective but have limitations when differentiating CH from CM. False positives and negatives can occur due to:  
 - Atypical tumor presentation  
@@ -30,7 +30,7 @@ This study explores the use of CEUS and Nakagami imaging to provide objective, q
 
 
 
-## Methods: From Microbubbles to Pixels 🛠️  
+## Methods: From Microbubbles to Pixels
 
 ### 1. Patient Selection  
 - 10 patients (5 with CH, 5 with CM)  
@@ -41,7 +41,7 @@ This study explores the use of CEUS and Nakagami imaging to provide objective, q
 
 ### 2. Techniques Used  
 
-#### A. Nakagami Imaging 📈  
+#### A. Nakagami Imaging
 - Objective: Analyze tissue heterogeneity using statistical backscatter analysis.  
 - Steps:  
    1. Precontrast B-scan ultrasound images were acquired.  
@@ -75,7 +75,7 @@ Key Insight:
 
 
 
-#### B. Contrast-enhanced Ultrasound (CEUS) 🔬  
+#### B. Contrast-enhanced Ultrasound (CEUS)  
 - Objective: Evaluate microvascular perfusion within tumors.  
 - Steps:  
    1. Patients received Definity® microbubble contrast agent via IV injection.  
@@ -92,7 +92,7 @@ Where $\Delta P_x$ and $\Delta P_y$ are pixel intensity gradients.
 
 
 
-## Results: Numbers Don’t Lie 🧮  
+## Results: Numbers Don’t Lie
 
 ### 1. Nakagami Parameters  
 ![NakagamiROI](../../images/publication/bscan.png)
@@ -131,7 +131,7 @@ Key Findings:
 
 
 
-## Discussion: What This Means 🧠  
+## Discussion: What This Means  
 
 ### Nakagami Imaging  
 - CH is more heterogeneous due to higher vascular density and enlarged, thin-walled blood vessels.  
@@ -143,7 +143,7 @@ Key Findings:
 
 
 
-## Conclusion: A Step Forward in Choroidal Tumor Diagnosis 🌟  
+## Conclusion: A Step Forward in Choroidal Tumor Diagnosis 
 
 This study demonstrates that Nakagami imaging and CEUS provide complementary, quantitative biomarkers to differentiate benign and malignant choroidal tumors.  
 
@@ -154,13 +154,11 @@ This study demonstrates that Nakagami imaging and CEUS provide complementary, qu
 Together, these techniques can improve diagnostic accuracy, offering a non-invasive, objective approach for clinicians.  
 
 
-## Gratitude 🙏  
+## Gratitude
 
 Special thanks to my mentors and collaborators for their valuable support and feedback throughout this project.  
 
-Let’s keep pushing the boundaries of imaging technology to improve lives! 🚀  
+Let’s keep pushing the boundaries of imaging technology to improve lives!
 
-
-
-Thank you for reading! 💻✨  
+Thank you for reading!
 *“Science is not just about seeing; it’s about understanding what we see.”*  

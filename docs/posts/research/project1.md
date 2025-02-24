@@ -1,15 +1,15 @@
 
-# 🚀 Predicting Cardiovascular Risk Using Machine Learning 🩺  
+# Predicting Cardiovascular Risk Using Machine Learning  
 
 
-## Introduction: A Fight Against the Silent Killer 💔  
+## Introduction: A Fight Against the Silent Killer
 
 Cardiovascular diseases (CVDs) are the leading cause of death worldwide, accounting for millions of lives lost annually. Identifying individuals at risk early can help implement preventive strategies and save lives. The challenge? Finding the right tools to predict this risk effectively.  
 
 In this project, I used machine learning techniques—Principal Component Analysis (PCA), K-Means Clustering, and LASSO Logistic Regression—to identify high-risk individuals based on health data from the NHANES dataset.  
 
 
-## Data Overview 📊
+## Data Overview
 
 I used the National Health and Nutrition Examination Survey (NHANES) dataset, which includes key demographic, physiological, and dietary features:  
 
@@ -27,7 +27,7 @@ Participants were classified as High Risk (1) if they met at least one of the fo
 Otherwise, they were labeled as Low Risk (0).  
 
 
-## Methodology 🛠️
+## Methodology
 
 I applied three key machine learning techniques to analyze and predict CVD risk:  
 
@@ -52,7 +52,7 @@ Result:
 - PC2 explained 20.4% of variance, focusing on Systolic BP and Diastolic BP.  
 
 
-### 2. K-Means Clustering 🤖 
+### 2. K-Means Clustering
 K-Means was applied to PCA components to identify subgroups within the data. The objective was to minimize within-cluster variance:
   
 $$
@@ -77,7 +77,7 @@ Insights:
 - Cluster 3: Middle-aged individuals with moderate BMI → Medium Risk  
 
 
-### 3. LASSO Logistic Regression 📉
+### 3. LASSO Logistic Regression
 LASSO regression shrinks insignificant predictors to zero, focusing only on the most influential features. The loss function includes a penalty term:  
 
 $$
@@ -104,7 +104,7 @@ The model achieved excellent predictive accuracy:
 - Specificity: 93.6%  
 
 
-## Results and Discussion 📈  
+## Results and Discussion  
 
 ### Key Takeaways 
 
@@ -117,7 +117,7 @@ The model achieved excellent predictive accuracy:
 3. The LASSO model’s high accuracy proves its reliability for predicting CVD risk.  
 
 
-## Visual Results 📊
+## Visual Results
 
 1. PCA Biplot: Visualize variable contributions to CVD risk.  
 2. K-Means Cluster Plot: Show the distinct clusters based on PCA components.  
@@ -125,13 +125,13 @@ The model achieved excellent predictive accuracy:
 4. ROC Curve: Demonstrates the model’s high predictive performance.  
 
 
-## Challenges Faced 💡
+## Challenges Faced
 1. Multicollinearity: Addressed using PCA for dimensionality reduction.  
 2. Optimal Clustering: Achieved using the Elbow Method.  
 3. Model Tuning: Finding the best regularization parameter $\lambda$ for LASSO.
 
 
-## Conclusion: Insights for Public Health 🌍 
+## Conclusion: Insights for Public Health 
 
 This study demonstrates the power of machine learning in predicting cardiovascular risk. By combining PCA, K-Means Clustering, and LASSO Regression, I:  
 - identified key predictors of CVD risk: BMI, Systolic BP, and Age.  
@@ -140,12 +140,12 @@ This study demonstrates the power of machine learning in predicting cardiovascul
 These findings can guide public health strategies to focus resources on high-risk individuals and promote preventive healthcare.  
 
 
-## Future Directions 🚀
+## Future Directions
 
 1. Use longitudinal data to monitor CVD risk over time.  
 2. Explore advanced models like Deep Learning for complex interactions.  
 3. Apply this framework to global datasets for broader impact.
 
 
-## Thank You! 💻✨  
+## Thank You!
 *"Let’s use data to solve real-world problems and create a healthier world!"*  
